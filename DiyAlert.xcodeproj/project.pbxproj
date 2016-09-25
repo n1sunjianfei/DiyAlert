@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDB45881CD208DA009BF723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB45871CD208DA009BF723 /* main.m */; };
+		CEDB458B1CD208DA009BF723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB458A1CD208DA009BF723 /* AppDelegate.m */; };
+		CEDB458E1CD208DA009BF723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB458D1CD208DA009BF723 /* ViewController.m */; };
+		CEDB45911CD208DA009BF723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB458F1CD208DA009BF723 /* Main.storyboard */; };
+		CEDB45931CD208DA009BF723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB45921CD208DA009BF723 /* Assets.xcassets */; };
+		CEDB45961CD208DA009BF723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB45941CD208DA009BF723 /* LaunchScreen.storyboard */; };
+		CEDB45A11CD208DA009BF723 /* DiyAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB45A01CD208DA009BF723 /* DiyAlertTests.m */; };
+		CEDB45AC1CD208DA009BF723 /* DiyAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB45AB1CD208DA009BF723 /* DiyAlertUITests.m */; };
+		CEDB45BB1CD208F5009BF723 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB45BA1CD208F5009BF723 /* Alert.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDB459D1CD208DA009BF723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDB457B1CD208DA009BF723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDB45821CD208DA009BF723;
+			remoteInfo = DiyAlert;
+		};
+		CEDB45A81CD208DA009BF723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDB457B1CD208DA009BF723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDB45821CD208DA009BF723;
+			remoteInfo = DiyAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDB45831CD208DA009BF723 /* DiyAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiyAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB45871CD208DA009BF723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDB45891CD208DA009BF723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDB458A1CD208DA009BF723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDB458C1CD208DA009BF723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEDB458D1CD208DA009BF723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDB45901CD208DA009BF723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDB45921CD208DA009BF723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDB45951CD208DA009BF723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDB45971CD208DA009BF723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB459C1CD208DA009BF723 /* DiyAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB45A01CD208DA009BF723 /* DiyAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiyAlertTests.m; sourceTree = "<group>"; };
+		CEDB45A21CD208DA009BF723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB45A71CD208DA009BF723 /* DiyAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB45AB1CD208DA009BF723 /* DiyAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiyAlertUITests.m; sourceTree = "<group>"; };
+		CEDB45AD1CD208DA009BF723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB45B91CD208F5009BF723 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		CEDB45BA1CD208F5009BF723 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDB45801CD208DA009BF723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB45991CD208DA009BF723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB45A41CD208DA009BF723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDB457A1CD208DA009BF723 = {
+			isa = PBXGroup;
+			children = (
+				CEDB45851CD208DA009BF723 /* DiyAlert */,
+				CEDB459F1CD208DA009BF723 /* DiyAlertTests */,
+				CEDB45AA1CD208DA009BF723 /* DiyAlertUITests */,
+				CEDB45841CD208DA009BF723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDB45841CD208DA009BF723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB45831CD208DA009BF723 /* DiyAlert.app */,
+				CEDB459C1CD208DA009BF723 /* DiyAlertTests.xctest */,
+				CEDB45A71CD208DA009BF723 /* DiyAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDB45851CD208DA009BF723 /* DiyAlert */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB45891CD208DA009BF723 /* AppDelegate.h */,
+				CEDB458A1CD208DA009BF723 /* AppDelegate.m */,
+				CEDB458C1CD208DA009BF723 /* ViewController.h */,
+				CEDB458D1CD208DA009BF723 /* ViewController.m */,
+				CEDB45B91CD208F5009BF723 /* Alert.h */,
+				CEDB45BA1CD208F5009BF723 /* Alert.m */,
+				CEDB458F1CD208DA009BF723 /* Main.storyboard */,
+				CEDB45921CD208DA009BF723 /* Assets.xcassets */,
+				CEDB45941CD208DA009BF723 /* LaunchScreen.storyboard */,
+				CEDB45971CD208DA009BF723 /* Info.plist */,
+				CEDB45861CD208DA009BF723 /* Supporting Files */,
+			);
+			path = DiyAlert;
+			sourceTree = "<group>";
+		};
+		CEDB45861CD208DA009BF723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB45871CD208DA009BF723 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDB459F1CD208DA009BF723 /* DiyAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB45A01CD208DA009BF723 /* DiyAlertTests.m */,
+				CEDB45A21CD208DA009BF723 /* Info.plist */,
+			);
+			path = DiyAlertTests;
+			sourceTree = "<group>";
+		};
+		CEDB45AA1CD208DA009BF723 /* DiyAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB45AB1CD208DA009BF723 /* DiyAlertUITests.m */,
+				CEDB45AD1CD208DA009BF723 /* Info.plist */,
+			);
+			path = DiyAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDB45821CD208DA009BF723 /* DiyAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB45B01CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlert" */;
+			buildPhases = (
+				CEDB457F1CD208DA009BF723 /* Sources */,
+				CEDB45801CD208DA009BF723 /* Frameworks */,
+				CEDB45811CD208DA009BF723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiyAlert;
+			productName = DiyAlert;
+			productReference = CEDB45831CD208DA009BF723 /* DiyAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDB459B1CD208DA009BF723 /* DiyAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB45B31CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlertTests" */;
+			buildPhases = (
+				CEDB45981CD208DA009BF723 /* Sources */,
+				CEDB45991CD208DA009BF723 /* Frameworks */,
+				CEDB459A1CD208DA009BF723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDB459E1CD208DA009BF723 /* PBXTargetDependency */,
+			);
+			name = DiyAlertTests;
+			productName = DiyAlertTests;
+			productReference = CEDB459C1CD208DA009BF723 /* DiyAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDB45A61CD208DA009BF723 /* DiyAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDB45B61CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlertUITests" */;
+			buildPhases = (
+				CEDB45A31CD208DA009BF723 /* Sources */,
+				CEDB45A41CD208DA009BF723 /* Frameworks */,
+				CEDB45A51CD208DA009BF723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDB45A91CD208DA009BF723 /* PBXTargetDependency */,
+			);
+			name = DiyAlertUITests;
+			productName = DiyAlertUITests;
+			productReference = CEDB45A71CD208DA009BF723 /* DiyAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDB457B1CD208DA009BF723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sjf;
+				TargetAttributes = {
+					CEDB45821CD208DA009BF723 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CEDB459B1CD208DA009BF723 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEDB45821CD208DA009BF723;
+					};
+					CEDB45A61CD208DA009BF723 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CEDB45821CD208DA009BF723;
+					};
+				};
+			};
+			buildConfigurationList = CEDB457E1CD208DA009BF723 /* Build configuration list for PBXProject "DiyAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDB457A1CD208DA009BF723;
+			productRefGroup = CEDB45841CD208DA009BF723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDB45821CD208DA009BF723 /* DiyAlert */,
+				CEDB459B1CD208DA009BF723 /* DiyAlertTests */,
+				CEDB45A61CD208DA009BF723 /* DiyAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDB45811CD208DA009BF723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB45961CD208DA009BF723 /* LaunchScreen.storyboard in Resources */,
+				CEDB45931CD208DA009BF723 /* Assets.xcassets in Resources */,
+				CEDB45911CD208DA009BF723 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB459A1CD208DA009BF723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB45A51CD208DA009BF723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDB457F1CD208DA009BF723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB458E1CD208DA009BF723 /* ViewController.m in Sources */,
+				CEDB458B1CD208DA009BF723 /* AppDelegate.m in Sources */,
+				CEDB45BB1CD208F5009BF723 /* Alert.m in Sources */,
+				CEDB45881CD208DA009BF723 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB45981CD208DA009BF723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB45A11CD208DA009BF723 /* DiyAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDB45A31CD208DA009BF723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDB45AC1CD208DA009BF723 /* DiyAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDB459E1CD208DA009BF723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDB45821CD208DA009BF723 /* DiyAlert */;
+			targetProxy = CEDB459D1CD208DA009BF723 /* PBXContainerItemProxy */;
+		};
+		CEDB45A91CD208DA009BF723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDB45821CD208DA009BF723 /* DiyAlert */;
+			targetProxy = CEDB45A81CD208DA009BF723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDB458F1CD208DA009BF723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB45901CD208DA009BF723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDB45941CD208DA009BF723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDB45951CD208DA009BF723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDB45AE1CD208DA009BF723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDB45AF1CD208DA009BF723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDB45B11CD208DA009BF723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiyAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEDB45B21CD208DA009BF723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiyAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEDB45B41CD208DA009BF723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiyAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiyAlert.app/DiyAlert";
+			};
+			name = Debug;
+		};
+		CEDB45B51CD208DA009BF723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiyAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiyAlert.app/DiyAlert";
+			};
+			name = Release;
+		};
+		CEDB45B71CD208DA009BF723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiyAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiyAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEDB45B81CD208DA009BF723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiyAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.DiyAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiyAlert;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDB457E1CD208DA009BF723 /* Build configuration list for PBXProject "DiyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB45AE1CD208DA009BF723 /* Debug */,
+				CEDB45AF1CD208DA009BF723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDB45B01CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB45B11CD208DA009BF723 /* Debug */,
+				CEDB45B21CD208DA009BF723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDB45B31CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB45B41CD208DA009BF723 /* Debug */,
+				CEDB45B51CD208DA009BF723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDB45B61CD208DA009BF723 /* Build configuration list for PBXNativeTarget "DiyAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDB45B71CD208DA009BF723 /* Debug */,
+				CEDB45B81CD208DA009BF723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDB457B1CD208DA009BF723 /* Project object */;
+}
